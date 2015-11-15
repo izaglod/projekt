@@ -1,6 +1,3 @@
-epi_iza:
-    resource: "@EpiIzaBundle/Resources/config/routing.yml"
-    prefix:   /
 
 epi_hello:
     resource: "@EpiHelloBundle/Resources/config/routing.yml"
