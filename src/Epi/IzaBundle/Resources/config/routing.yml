@@ -1,3 +1,0 @@
-epi_iza_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: EpiIzaBundle:Default:index }
