@@ -18,7 +18,6 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new AppBundle\AppBundle(),
             new Epi\HelloBundle\EpiHelloBundle(),
-            new Epi\IzaBundle\EpiIzaBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
