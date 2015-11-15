@@ -1,0 +1,20 @@
+{% extends '::base.html.twig' %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('bundles/framework/css/structure.css') }}" />
+    <link rel="stylesheet" href="{{ asset('bundles/framework/css/body.css') }}" />
+    <link rel="stylesheet" href="{{ asset('bundles/framework/css/exception.css') }}" />
+{% endblock %}
+
+{% block body %}
+    <h1>Waluty</h1>
+    <ul>
+        {% for exchange in data %}
+            <li>
+                <h3>{{ exchange.nazwa_waluty }}</h3>
+                <p>Kurs: {{exchange.kurs_sredni}}</p>
+                <a href="exchange-rates/view/{{exchange.kod_waluty}}">Więcej</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

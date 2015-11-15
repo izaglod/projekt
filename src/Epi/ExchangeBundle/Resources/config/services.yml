@@ -1,0 +1,4 @@
+services:
+#    epi_exchange.example:
+#        class: Epi\ExchangeBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

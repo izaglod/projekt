@@ -1,0 +1,6 @@
+epi_exchange_homepage:
+    path:     /exchange-rates
+    defaults: { _controller: EpiExchangeBundle:Default:index }
+epi_exchange_view:
+    path:     /exchange-rates/view/{code}
+    defaults: { _controller: EpiExchangeBundle:Default:view }
