@@ -1,0 +1,3 @@
+epi_hello_homepage:
+    resource: "@EpiHelloBundle/Controller/"
+    type: annotation
